@@ -14,9 +14,9 @@ while(True):
     a = a + 1
     key = cv2.waitKey(1)
 
-    if (a == 500):
+    if (a == 250):
         a = 0
-        cv2.imwrite('D:/Dev/garbadoor/Scripts/resources/image.png', frame)
+        cv2.imwrite('D:/Dev/garbadoor/garbadoor-backend/Scripts/resources/image.png', frame)
         print("")
         print("")
         print("---------------------------")
@@ -36,12 +36,13 @@ while(True):
                 cv2.rectangle(frame, (leftX, leftY), (rightX, rightY), (0, 255, 0), 2)
         y = 20
         for label in labels:
+            print(label)
             labelDescrip = label.description + "  " + str(round(label.score * 100, 2)) + "%"
             cv2.putText(frame, labelDescrip, (10, y),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 255, 0),  lineType=cv2.LINE_AA)
             y = y + 15
             labelDescrip = labelDescrip + ('\n{} (confidence: {})'.format(label.description, label.score))
-        cv2.imwrite('D:/Dev/garbadoor/Scripts/resources/imageBounded.png', frame)
+        cv2.imwrite('D:/Dev/garbadoor/garbadoor-backend/Scripts/resources/imageBounded.png', frame)
 
         print(sort.sort_garbage(labels))
 

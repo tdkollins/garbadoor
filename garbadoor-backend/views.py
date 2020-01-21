@@ -28,7 +28,6 @@ def data():
 def update_data_live():
     local_db = request.get_json(force=True)
     local_db = json.dumps(local_db)
-    print(local_db)
     with open('./localdb.txt', 'w+') as outfile:
         outfile.write(local_db)
     return 'Done', 201

@@ -29,7 +29,7 @@ def call_api():
     client = vision.ImageAnnotatorClient()
 
     # The name of the image file to annotate
-    file_name = os.path.abspath('resources/image.png')
+    file_name = os.path.abspath('./resources/image.png')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:

@@ -13,6 +13,18 @@ import compost from "./resources/compost.jpg"
 import recycle from "./resources/recycle.jpg"
 import garbage from "./resources/garbage.jpg"
 import warning from "./resources/warning.jpg"
+import jan from "./resources/stats/Janurary.png"
+import feb from "./resources/stats/February.png"
+import mar from "./resources/stats/March.png"
+import apl from "./resources/stats/April.png"
+import may from "./resources/stats/May.png"
+import jun from "./resources/stats/June.png"
+import jul from "./resources/stats/July.png"
+import aug from "./resources/stats/August.png"
+import sep from "./resources/stats/September.png"
+import oct from "./resources/stats/October.png"
+import nov from "./resources/stats/November.png"
+import dec from "./resources/stats/December.png"
 
 
 function Map() {
@@ -67,7 +79,7 @@ export default function WrpdMap() {
                 containerElement={<div style={{height: "100%"}}/>}
                 mapElement={<div style={{height: "100%"}}/>}
             />
-            <div className="statistics"></div>
+            <div className="statistics"><img className="statImage" id="statImage" src={oct} /></div>
         </div>
     )
 }

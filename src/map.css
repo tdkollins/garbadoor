@@ -1,9 +1,15 @@
 .statistics {
     position: absolute;
     width: 500px;
-    height: 650px;
+    height: 600px;
     right: 10px;
     top: 65px;
     background-color: #122747;
     border-radius: 35px;
+}
+
+.statImage {
+    position: relative;
+    top: 45px;
+    left: 60px;
 }
