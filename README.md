@@ -8,17 +8,17 @@ Additional Credits for this hack go to @nicoledanuwidjaja, @VKong6019 and @RayRu
 
 ## Demo
 You can check out a full demo of the garbage can here:
-[Demo](https://www.youtube.com/watch?v=qmpBA5ZwOQA&feature=emb_logo), \\
+[Demo](https://www.youtube.com/watch?v=qmpBA5ZwOQA&feature=emb_logo),  
 and can learn more about the process of making it here: 
-[Devpost](https://devpost.com/software/garbadoor) \\
+[Devpost](https://devpost.com/software/garbadoor)  
 
-\\ Physical Hack:
+  Physical Hack:
 ![Physical Hack](demo/pic01.jpg)
-\\ Arduino Powered:
+  Arduino Powered:
 ![Arduino Powered](demo/pic03.jpg)
-\\ Smart City Statistics
+  Smart City Statistics
 ![Smart City Statistics](demo/pic02.png)
-\\ Sleek Dashboard Appearence
+  Sleek Dashboard Appearence
 ![Sleek Dashboard Appearence](demo/pic04.png)
 
 ## How does it work?
